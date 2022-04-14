@@ -104,7 +104,7 @@ nav a:hover {
 }
 
 .list {
-  background-image: url(/images/dua.png);
+  background-image: url(images/dua.png);
   background-position: center;
   border: solid 2px purple;
   border-radius: 8px;
