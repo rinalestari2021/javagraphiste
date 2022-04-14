@@ -152,12 +152,11 @@ nav a:hover {
 
 .imageslist {
   display: flex;
-
   justify-content: center;
   align-content: space-between;
   flex-direction: row;
   gap: 20px;
-
+  line-height: 50px;
   flex-grow: 1;
   animation-duration: 2s;
   animation-name: slidein;
