@@ -1,0 +1,185 @@
+#bloc_page {
+  width: 50%;
+  display: block;
+}
+html {
+  box-sizing: border-box;
+}
+
+p {
+  text-align: center;
+}
+
+body {
+  font-family: "Verdana", "Fantasy", "Tahoma";
+  position: relative;
+  margin: 0;
+  height: auto;
+  min-height: 100%;
+}
+
+.openingtext {
+  font-size: 15pt;
+  text-align: center;
+}
+
+.options {
+  font-family: cursive;
+  color: blueviolet;
+  font-size: 12pt;
+  font-style: italic;
+  text-align: center;
+}
+
+.section {
+  width: 50%;
+  margin: auto;
+  left: 50%;
+}
+
+.logo {
+  left: 30px;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  align-self: center;
+  vertical-align: middle;
+}
+
+nav {
+  position: relative;
+  gap: 50px;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  justify-content: center;
+  flex-grow: 4;
+  font-size: 1em;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 8px;
+  margin-left: 20px;
+}
+
+nav a:hover {
+  color: purple;
+  align-items: center;
+  text-decoration: none;
+}
+
+.li {
+  float: right;
+  margin-top: 0;
+  position: relative;
+  list-style: none;
+}
+
+.ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  overflow: hidden;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  margin-left: 30px;
+}
+
+.b-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bgrnd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.list {
+  background-image: url(/images/dua.png);
+  background-position: center;
+  border: solid 2px purple;
+  border-radius: 8px;
+  gap: 8px;
+  width: 150px;
+}
+
+.lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  gap: 15px;
+  width: 49vw;
+  text-align: center;
+  margin: 5px 5px;
+}
+
+.closing {
+  background: purple;
+  height: 30px;
+  align-items: center;
+  font-family: fantasy;
+  font-style: italic;
+  text-align: center;
+  color: grey;
+  padding-top: 10px;
+}
+
+.article,
+.articlefrancaise {
+  text-align: justify;
+  line-height: 30px;
+}
+
+.indentitas {
+  text-align: center;
+  line-height: 30px;
+}
+
+.contactperson,
+.titlepage {
+  text-align: center;
+}
+
+.imageslist {
+  display: flex;
+
+  justify-content: center;
+  align-content: space-between;
+  flex-direction: row;
+  gap: 20px;
+
+  flex-grow: 1;
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border: 2px solid purple;
+  padding: 20px 20px;
+  gap: 20px;
+}
