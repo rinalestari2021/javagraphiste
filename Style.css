@@ -106,10 +106,8 @@ nav a:hover {
 }
 
 .list {
-  background-image: url(images/dua.png);
   background-position: center;
   border: solid 2px purple;
-  border-radius: 8px;
   gap: 8px;
   width: 150px;
 }
