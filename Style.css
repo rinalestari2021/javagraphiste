@@ -45,6 +45,7 @@ body {
 
 .logo {
   margin-left: 20px;
+  border: 4px black;
 }
 
 .backbutton {
