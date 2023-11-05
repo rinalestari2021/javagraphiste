@@ -202,6 +202,23 @@ nav a:hover {
   gap: 20px;
 }
 
+.flexcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px 20px;
+  gap: 10px;
+}
+
+.group1,
+.group2,
+.group3 {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 20px;
+  gap: 10px;
+}
+
 /*Desktop Query*/
 @media screen and (max-width: 780px) {
   #bloc_page {
