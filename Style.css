@@ -113,7 +113,7 @@ nav a:hover {
 
 .list {
   background-position: center;
-  border: solid 2px purple;
+  cursor: pointer;
   gap: 8px;
   width: 150px;
 }
@@ -122,11 +122,15 @@ nav a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
   gap: 15px;
   width: 49vw;
   text-align: center;
   margin: 5px 5px;
+}
+
+.list:hover {
+  text-decoration: underline;
+  color: purple;
 }
 
 .closing {
