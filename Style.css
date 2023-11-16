@@ -1,7 +1,7 @@
 #bloc_page {
-  width: 60%;
-  margin: auto;
+  width: auto;
 }
+
 .html {
   box-sizing: border-box;
 }
@@ -236,7 +236,7 @@ nav a:hover {
 }
 
 /*Desktop Query*/
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1200px) {
   #bloc_page {
     margin: auto;
     width: 98%;
@@ -244,7 +244,7 @@ nav a:hover {
 }
 
 /*Tablet Query*/
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 896px) {
   #bloc_page {
     margin: auto;
     width: 98%;
@@ -256,5 +256,14 @@ nav a:hover {
   #bloc_page {
     margin: auto;
     width: 98%;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu,
+  .main,
+  .right {
+    width: 100%;
   }
 }
