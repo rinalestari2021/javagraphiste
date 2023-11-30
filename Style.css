@@ -1,5 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Verdana", "Fantasy", "Tahoma";
+  position: relative;
+  height: auto;
+  min-height: 100%;
+}
+
 #bloc_page {
-  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 .html {
@@ -20,18 +33,21 @@ p {
   text-align: justify;
 }
 
-body {
-  font-family: "Verdana", "Fantasy", "Tahoma";
-  position: relative;
-  margin: 0;
-  height: auto;
-  min-height: 100%;
-}
-
 .container {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px;
+  background-color: white;
 }
 
 .openingtext {
@@ -48,19 +64,30 @@ body {
 }
 
 .section {
-  width: 50%;
-  margin: auto;
-  left: 50%;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .logo {
-  margin-left: 20px;
   border: 4px black;
 }
 
+.logo {
+  max-width: 100%;
+  height: auto;
+  margin-left: 20px;
+}
+
 .backbutton {
-  margin-top: 50px;
-  margin-left: 380px;
+  text-decoration: none;
+  color: purple;
+  margin-top: 58px;
+  margin-left: 50px;
+}
+
+.menu {
+  display: flex;
 }
 
 a {
@@ -115,27 +142,35 @@ nav a:hover {
 }
 
 .bgrnd {
-  display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 30px;
 }
 
+.options {
+  font-family: cursive;
+  color: blueviolet;
+  font-size: 12pt;
+  font-style: italic;
+  text-align: center;
+}
+
 .list {
-  background-position: center;
-  cursor: pointer;
-  gap: 8px;
-  width: 150px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: gainsboro;
 }
 
 .lists {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 15px;
-  width: 49vw;
+  width: 100%; /* Adjust as needed */
   text-align: center;
-  margin: 5px 5px;
 }
 
 .list:hover {
@@ -144,13 +179,12 @@ nav a:hover {
 }
 
 .closing {
-  background: purple;
   height: 30px;
   align-items: center;
   font-family: fantasy;
   font-style: italic;
   text-align: center;
-  color: grey;
+  color: purple;
   padding-top: 10px;
 }
 
@@ -235,35 +269,17 @@ nav a:hover {
   gap: 20px;
 }
 
-/*Desktop Query*/
-@media screen and (max-width: 1200px) {
-  #bloc_page {
-    margin: auto;
-    width: 98%;
-  }
+.footer {
+  padding: 20px;
+  text-align: center;
 }
 
-/*Tablet Query*/
-@media screen and (min-width: 481px) and (max-width: 896px) {
-  #bloc_page {
-    margin: auto;
-    width: 98%;
-  }
+/* Tablet and Desktop */
+@media screen and (min-width: 481px) {
+  /* Adjustments for tablet and larger screens */
 }
 
-/*Mobile Query*/
+/* Mobile */
 @media screen and (max-width: 480px) {
-  #bloc_page {
-    margin: auto;
-    width: 98%;
-  }
-}
-
-@media only screen and (max-width: 620px) {
-  /* For mobile phones: */
-  .menu,
-  .main,
-  .right {
-    width: 100%;
-  }
+  /* Adjustments for mobile screens */
 }
