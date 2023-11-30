@@ -64,7 +64,7 @@ p {
 }
 
 .section {
-  width: 90%;
+  width: 100%;
   text-align: center;
   margin-top: 20px;
 }
@@ -173,7 +173,7 @@ nav a:hover {
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
-  width: 100%; /* Adjust as needed */
+  width: 100%;
   text-align: center;
 }
 
@@ -279,12 +279,22 @@ nav a:hover {
   text-align: center;
 }
 
-/* Tablet and Desktop */
-@media screen and (min-width: 481px) {
-  /* Adjustments for tablet and larger screens */
-}
-
 /* Mobile */
 @media screen and (max-width: 480px) {
-  /* Adjustments for mobile screens */
+  .backbutton {
+    margin-left: 0;
+  }
+
+  .lists {
+    width: 100%;
+  }
+  .section {
+    width: 80%;
+  }
+  .bgrnd {
+    width: 80%;
+  }
+  .header {
+    width: 80%;
+  }
 }
