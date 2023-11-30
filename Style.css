@@ -284,6 +284,9 @@ nav a:hover {
   .backbutton {
     margin-left: 0;
   }
+  #bloc_page {
+    width: 100%;
+  }
 
   .lists {
     width: 100%;
