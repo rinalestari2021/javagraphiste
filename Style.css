@@ -64,9 +64,13 @@ p {
 }
 
 .section {
-  width: 100%;
+  width: 90%;
   text-align: center;
   margin-top: 20px;
+}
+
+.indentitas {
+  width: 100%;
 }
 
 .logo {
@@ -176,6 +180,7 @@ nav a:hover {
 .list:hover {
   text-decoration: underline;
   color: purple;
+  background-color: rgb(230, 205, 230);
 }
 
 .closing {
