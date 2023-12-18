@@ -173,6 +173,7 @@ nav a:hover {
   gap: 15px;
   width: 100%;
   text-align: center;
+  flex-direction: column;
 }
 
 .list:hover {
@@ -240,6 +241,13 @@ nav a:hover {
   flex-direction: row;
   border: 2px solid purple;
   gap: 20px;
+}
+
+.services {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .indentitas {
