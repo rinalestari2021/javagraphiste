@@ -143,6 +143,18 @@ nav a:hover {
   margin-right: auto;
 }
 
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+.products {
+  width: 300px;
+  height: auto;
+}
+
 .bgrnd {
   align-items: center;
   justify-content: center;
