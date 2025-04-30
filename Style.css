@@ -233,16 +233,6 @@ nav a:hover {
   animation-duration: 2s;
   animation-name: slidein;
 }
-.imageslistcv {
-  display: flex;
-  justify-content: center;
-  align-content: space-between;
-  flex-direction: row;
-  gap: 20px;
-  flex-grow: 0.5;
-  animation-duration: 2s;
-  animation-name: slidein;
-}
 
 @keyframes slidein {
   from {
@@ -269,6 +259,9 @@ nav a:hover {
   position: relative;
   flex-wrap: wrap;
   flex-direction: column;
+  border: 1px solid #777;
+  row-gap: 20px;
+  outline-style: double;
 }
 
 .listing {
