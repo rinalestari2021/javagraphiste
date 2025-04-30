@@ -229,7 +229,6 @@ nav a:hover {
   align-content: space-between;
   flex-direction: row;
   gap: 20px;
-  line-height: 50px;
   flex-grow: 1;
   animation-duration: 2s;
   animation-name: slidein;
@@ -350,5 +349,9 @@ nav a:hover {
   }
   .imageslist {
     flex-direction: column;
+  }
+  .text-1 {
+    text-align: center;
+    text-justify: inter-word;
   }
 }
