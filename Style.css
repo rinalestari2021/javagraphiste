@@ -269,8 +269,13 @@ nav a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  justify-content: center;
   margin-top: 30px;
+  align-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+  flex-grow: 1;
+  animation-duration: 2s;
+  animation-name: slidein;
 }
 
 .indentitas {
